@@ -1,0 +1,1007 @@
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-05 10:13:52) [GET]
+Rendering books/add
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://test.host/books/add]
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-05 19:47:29) [GET]
+Rendering books/add
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-05 19:51:29) [GET]
+Rendering books/add
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-05 20:17:20) [GET]
+Rendering books/add
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-05 20:18:07) [GET]
+Rendering books/index
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://test.host/books/add]
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-05 20:30:11) [GET]
+Rendering books/index
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-05 20:55:06) [GET]
+Rendering books/index
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-05 20:55:06) [GET]
+Rendering books/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (115.4ms)[0m   [0;1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (195.4ms)[0m   [0mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateBooks (20100205152732)
+  [4;36;1mSQL (114.0ms)[0m   [0;1mCREATE TABLE `books` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `author` varchar(255), `mrp` decimal, `sale_price` decimal, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (49.8ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100205152732')[0m
+  [4;36;1mSQL (12.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mdescribe `books`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW KEYS FROM `books`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mBook Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mBook Create (0.3ms)[0m   [0;1mINSERT INTO `books` (`name`, `mrp`, `created_at`, `author`, `updated_at`, `sale_price`) VALUES(NULL, NULL, '2010-02-05 15:41:13', NULL, '2010-02-05 15:41:13', NULL)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (136.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mBook Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mBook Create (0.3ms)[0m   [0;1mINSERT INTO `books` (`name`, `mrp`, `created_at`, `author`, `updated_at`, `sale_price`) VALUES(NULL, NULL, '2010-02-05 15:41:58', NULL, '2010-02-05 15:41:58', NULL)[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (126.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mBook Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mBook Create (0.3ms)[0m   [0;1mINSERT INTO `books` (`name`, `mrp`, `created_at`, `author`, `updated_at`, `sale_price`) VALUES(NULL, NULL, '2010-02-05 15:42:12', NULL, '2010-02-05 15:42:12', NULL)[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (89.3ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mBook Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mBook Create (0.3ms)[0m   [0;1mINSERT INTO `books` (`name`, `mrp`, `created_at`, `author`, `updated_at`, `sale_price`) VALUES('c', 23, '2010-02-05 15:45:46', 'K and R', '2010-02-05 15:45:46', 10)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (92.4ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mBook Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mBook Create (0.2ms)[0m   [0;1mINSERT INTO `books` (`name`, `mrp`, `created_at`, `author`, `updated_at`, `sale_price`) VALUES('c', 23, '2010-02-05 15:49:36', 'K and R', '2010-02-05 15:49:36', 10)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (82.6ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (2.7ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mBook Create (0.3ms)[0m   [0mINSERT INTO `books` (`name`, `mrp`, `created_at`, `author`, `updated_at`, `sale_price`) VALUES(NULL, 23, '2010-02-05 15:49:36', 'K and R', '2010-02-05 15:49:36', 10)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (41.5ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mBook Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mBook Create (0.2ms)[0m   [0;1mINSERT INTO `books` (`name`, `mrp`, `created_at`, `author`, `updated_at`, `sale_price`) VALUES('c', 23, '2010-02-05 15:50:25', 'K and R', '2010-02-05 15:50:25', 10)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (52.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK TO SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mBook Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mBook Create (0.3ms)[0m   [0;1mINSERT INTO `books` (`name`, `mrp`, `created_at`, `author`, `updated_at`, `sale_price`) VALUES('c', 23, '2010-02-05 15:51:22', 'K and R', '2010-02-05 15:51:22', 10)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (83.8ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-05 21:24:03) [GET]
+Rendering books/index
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mBook Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-05 21:24:03) [POST]
+Rendering books/add
+Completed in 1ms (View: 0, DB: 1) | 200 OK [http://test.host/books/add]
+  [4;35;1mSQL (0.4ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-05 21:24:03) [GET]
+Rendering books/index
+Completed in 1ms (View: 0, DB: 1) | 200 OK [http://test.host/books/add]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-05 21:25:53) [GET]
+Rendering books/index
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mBook Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-05 21:25:53) [POST]
+Rendering books/add
+Completed in 1ms (View: 0, DB: 1) | 200 OK [http://test.host/books/add]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-05 21:25:53) [GET]
+Rendering books/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-05 21:29:19) [GET]
+Rendering books/index
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mBook Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-05 21:29:19) [POST]
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-05 21:29:19) [GET]
+Rendering books/index
+Completed in 1ms (View: 0, DB: 1) | 200 OK [http://test.host/books/add]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-05 21:29:51) [GET]
+Rendering books/index
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mBook Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-05 21:29:51) [POST]
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-05 21:29:51) [GET]
+Rendering books/index
+Completed in 1ms (View: 1, DB: 2) | 200 OK [http://test.host/books/add]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-05 21:31:58) [GET]
+Rendering books/index
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mBook Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-05 21:31:58) [POST]
+  Parameters: {"mrp"=>"23.45", "name"=>"abc", "author"=>"k and r"}
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-05 21:31:58) [GET]
+Rendering books/index
+Completed in 1ms (View: 0, DB: 2) | 200 OK [http://test.host/books/add]
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 00:47:56) [GET]
+Rendering books/index
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+  [4;36;1mSQL (4.4ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mBook Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 00:47:56) [POST]
+  Parameters: {"book"=>{"name"=>"abc", "mrp"=>"23.45", "author"=>"k and r"}}
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 00:47:56) [GET]
+Rendering books/index
+Completed in 1ms (View: 1, DB: 6) | 200 OK [http://test.host/books/add]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 00:48:28) [GET]
+Rendering books/index
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mBook Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 00:48:28) [POST]
+  Parameters: {"book"=>{"name"=>"abc", "mrp"=>"23.45", "author"=>"k and r"}}
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 00:48:28) [GET]
+Rendering books/index
+Completed in 1ms (View: 0, DB: 1) | 200 OK [http://test.host/books/add]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 00:49:48) [GET]
+Rendering books/index
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mBook Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 00:49:48) [POST]
+  Parameters: {"book"=>{"mrp"=>"23.45", "name"=>"abc", "author "=>"k and r"}}
+Rendering books/add
+Completed in 1ms (View: 1, DB: 1) | 200 OK [http://test.host/books/add?book%5Bauthor+%5D=k+and+r&book%5Bmrp%5D=23.45&book%5Bname%5D=abc]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 00:49:48) [GET]
+Rendering books/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 00:54:00) [GET]
+Rendering books/add
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+  [4;36;1mSQL (2.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mBook Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 00:54:00) [POST]
+  Parameters: {"book"=>{"mrp"=>"23.45", "name"=>"abc", "author "=>"k and r"}}
+Rendering books/add
+Completed in 1ms (View: 0, DB: 3) | 200 OK [http://test.host/books/add?book%5Bauthor+%5D=k+and+r&book%5Bmrp%5D=23.45&book%5Bname%5D=abc]
+  [4;35;1mSQL (0.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 00:54:00) [GET]
+Rendering books/add
+Completed in 1ms (View: 0, DB: 1) | 200 OK [http://test.host/books/add]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 00:54:17) [GET]
+Rendering books/add
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mBook Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 00:54:17) [POST]
+  Parameters: {"book"=>{"mrp"=>"23.45", "name"=>"abc", "author "=>"k and r"}}
+Rendering books/add
+Completed in 1ms (View: 0, DB: 1) | 200 OK [http://test.host/books/add?book%5Bauthor+%5D=k+and+r&book%5Bmrp%5D=23.45&book%5Bname%5D=abc]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 00:54:17) [GET]
+Rendering books/add
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 00:59:10) [GET]
+Rendering books/add
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mBook Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 00:59:10) [POST]
+  Parameters: {"book"=>{"mrp"=>"23.45", "name"=>"abc", "author "=>"k and r"}}
+Rendering books/add
+Completed in 1ms (View: 0, DB: 1) | 200 OK [http://test.host/books/add?book%5Bauthor+%5D=k+and+r&book%5Bmrp%5D=23.45&book%5Bname%5D=abc]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 00:59:10) [POST]
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 00:59:10) [GET]
+Rendering books/add
+Completed in 1ms (View: 0, DB: 1) | 200 OK [http://test.host/books/add]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 00:59:27) [GET]
+Rendering books/add
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+  [4;36;1mSQL (2.6ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mBook Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 00:59:27) [POST]
+  Parameters: {"book"=>{"mrp"=>"23.45", "name"=>"abc", "author "=>"k and r"}}
+Rendering books/add
+Completed in 1ms (View: 1, DB: 4) | 200 OK [http://test.host/books/add?book%5Bauthor+%5D=k+and+r&book%5Bmrp%5D=23.45&book%5Bname%5D=abc]
+  [4;35;1mSQL (0.5ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 00:59:27) [POST]
+Rendering books/add
+Completed in 1ms (View: 0, DB: 1) | 200 OK [http://test.host/books/add]
+  [4;35;1mSQL (0.3ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 00:59:27) [GET]
+Rendering books/add
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+  [4;35;1mSQL (0.3ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:05:59) [GET]
+Rendering books/add
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mBook Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:05:59) [POST]
+  Parameters: {"book"=>{"mrp"=>"23.45", "name"=>"abc", "author "=>"k and r"}}
+  [4;35;1mSQL (0.4ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:05:59) [POST]
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK TO SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:05:59) [GET]
+Rendering books/add
+Completed in 1ms (View: 0, DB: 4) | 200 OK [http://test.host/books/add]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:08:49) [GET]
+Rendering books/add
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mBook Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:08:49) [POST]
+  Parameters: {"book"=>{"mrp"=>"23.45", "name"=>"abc", "author "=>"k and r"}}
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:08:49) [POST]
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:08:49) [GET]
+Rendering books/add
+Completed in 1ms (View: 0, DB: 1) | 200 OK [http://test.host/books/add]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:10:26) [GET]
+Rendering books/add
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mBook Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:10:26) [POST]
+  Parameters: {"book"=>{"mrp"=>"23.45", "name"=>"abc", "author "=>"k and r"}}
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:10:26) [POST]
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:10:26) [GET]
+Rendering books/add
+Completed in 1ms (View: 0, DB: 1) | 200 OK [http://test.host/books/add]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:13:15) [GET]
+Rendering books/add
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mBook Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:13:15) [POST]
+  Parameters: {"book"=>{"mrp"=>"23.45", "name"=>"abc"}}
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mBook Create (0.3ms)[0m   [0;1mINSERT INTO `books` (`name`, `mrp`, `created_at`, `author`, `updated_at`, `sale_price`) VALUES(NULL, NULL, '2010-02-05 19:43:15', NULL, '2010-02-05 19:43:15', NULL)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+Rendering books/index
+Completed in 9ms (View: 0, DB: 1) | 200 OK [http://test.host/books/add?book%5Bmrp%5D=23.45&book%5Bname%5D=abc]
+  [4;36;1mSQL (95.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:13:15) [POST]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK TO SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:13:15) [GET]
+Rendering books/add
+Completed in 1ms (View: 0, DB: 96) | 200 OK [http://test.host/books/add]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:14:07) [GET]
+Rendering books/add
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mBook Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:14:07) [POST]
+  Parameters: {"book"=>{"mrp"=>"23.45", "name"=>"abc"}}
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mBook Create (0.3ms)[0m   [0;1mINSERT INTO `books` (`name`, `mrp`, `created_at`, `author`, `updated_at`, `sale_price`) VALUES(NULL, NULL, '2010-02-05 19:44:07', NULL, '2010-02-05 19:44:07', NULL)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+Rendering books/index
+Completed in 9ms (View: 0, DB: 4) | 200 OK [http://test.host/books/add?book%5Bmrp%5D=23.45&book%5Bname%5D=abc]
+  [4;36;1mSQL (39.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:14:08) [POST]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK TO SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:14:08) [GET]
+Rendering books/add
+Completed in 1ms (View: 1, DB: 40) | 200 OK [http://test.host/books/add]
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:15:25) [GET]
+Rendering books/add
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mBook Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+WARNING: Can't mass-assign these protected attributes: id
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:15:25) [POST]
+  Parameters: {"book"=>{"mrp"=>"23.45", "name"=>"abc"}}
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mBook Create (0.3ms)[0m   [0;1mINSERT INTO `books` (`name`, `mrp`, `created_at`, `author`, `updated_at`, `sale_price`) VALUES(NULL, NULL, '2010-02-05 19:45:25', NULL, '2010-02-05 19:45:25', NULL)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+Rendering books/index
+Completed in 9ms (View: 0, DB: 3) | 200 OK [http://test.host/books/add?book%5Bmrp%5D=23.45&book%5Bname%5D=abc]
+  [4;36;1mSQL (45.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:15:25) [POST]
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK TO SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:15:25) [GET]
+Rendering books/add
+Completed in 1ms (View: 0, DB: 46) | 200 OK [http://test.host/books/add]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:17:04) [GET]
+Rendering books/add
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mBook Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+WARNING: Can't mass-assign these protected attributes: id
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:17:04) [POST]
+  Parameters: {"book"=>{"mrp"=>"23.45", "name"=>"abc"}}
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mBook Create (0.3ms)[0m   [0;1mINSERT INTO `books` (`name`, `mrp`, `created_at`, `author`, `updated_at`, `sale_price`) VALUES(NULL, NULL, '2010-02-05 19:47:04', NULL, '2010-02-05 19:47:04', NULL)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+Rendering books/index
+Completed in 9ms (View: 0, DB: 1) | 200 OK [http://test.host/books/add?book%5Bmrp%5D=23.45&book%5Bname%5D=abc]
+  [4;36;1mSQL (53.6ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:17:04) [POST]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK TO SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:17:04) [GET]
+Rendering books/add
+Completed in 1ms (View: 1, DB: 54) | 200 OK [http://test.host/books/add]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:17:20) [GET]
+Rendering books/add
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mBook Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+WARNING: Can't mass-assign these protected attributes: id
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:17:20) [POST]
+  Parameters: {"book"=>{"mrp"=>"23.45", "name"=>"abc"}}
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mBook Create (0.3ms)[0m   [0;1mINSERT INTO `books` (`name`, `mrp`, `created_at`, `author`, `updated_at`, `sale_price`) VALUES(NULL, NULL, '2010-02-05 19:47:20', NULL, '2010-02-05 19:47:20', NULL)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+Rendering books/index
+Completed in 9ms (View: 0, DB: 1) | 200 OK [http://test.host/books/add?book%5Bmrp%5D=23.45&book%5Bname%5D=abc]
+  [4;36;1mSQL (43.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:17:20) [POST]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK TO SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:17:20) [GET]
+Rendering books/add
+Completed in 1ms (View: 0, DB: 44) | 200 OK [http://test.host/books/add]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:18:14) [GET]
+Rendering books/add
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mBook Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:18:14) [POST]
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:18:14) [GET]
+Rendering books/add
+Completed in 1ms (View: 0, DB: 2) | 200 OK [http://test.host/books/add]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:19:42) [GET]
+Rendering books/add
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:19:42) [POST]
+  Parameters: {"book"=>{"mrp"=>"23.45", "name"=>"abc"}}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mBook Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:19:42) [POST]
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:19:42) [GET]
+Rendering books/add
+Completed in 1ms (View: 0, DB: 2) | 200 OK [http://test.host/books/add]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:20:56) [GET]
+Rendering books/add
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:20:56) [POST]
+  Parameters: {"book"=>{"mrp"=>"23.45", "name"=>"abc"}}
+Rendering books/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add?book%5Bmrp%5D=23.45&book%5Bname%5D=abc]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mBook Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:20:56) [POST]
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:20:56) [GET]
+Rendering books/add
+Completed in 1ms (View: 0, DB: 1) | 200 OK [http://test.host/books/add]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:22:46) [GET]
+Rendering books/add
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:22:46) [POST]
+  Parameters: {"book"=>{"mrp"=>"23.45", "name"=>"abc"}}
+Rendering books/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add?book%5Bmrp%5D=23.45&book%5Bname%5D=abc]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:22:46) [POST]
+Rendering books/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 01:22:46) [GET]
+Rendering books/add
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 20:12:38) [GET]
+Rendering books/add
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 20:12:38) [POST]
+  Parameters: {"book"=>{"mrp"=>"23.45", "name"=>"abc"}}
+Rendering books/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add?book%5Bmrp%5D=23.45&book%5Bname%5D=abc]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 20:12:38) [POST]
+Rendering books/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 20:12:38) [GET]
+Rendering books/add
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 20:13:07) [GET]
+Rendering books/add
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 20:13:07) [POST]
+  Parameters: {"book"=>{"mrp"=>"23.45", "name"=>"abc"}}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 20:13:08) [POST]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 20:13:08) [GET]
+Rendering books/add
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 20:14:18) [GET]
+Rendering books/add
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 20:14:18) [POST]
+  Parameters: {"book"=>{"mrp"=>"23.45", "name"=>"abc"}}
+Redirected to http://test.host/books
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/books/add?book%5Bmrp%5D=23.45&book%5Bname%5D=abc]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 20:14:18) [POST]
+Redirected to http://test.host/books
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/books/add]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 20:14:18) [GET]
+Rendering books/add
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 20:14:43) [GET]
+Rendering books/add
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+  [4;36;1mSQL (11.5ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 20:14:43) [POST]
+  Parameters: {"book"=>{"mrp"=>"23.45", "name"=>"abc"}}
+Redirected to http://test.host/books
+Completed in 1ms (DB: 12) | 302 Found [http://test.host/books/add?book%5Bmrp%5D=23.45&book%5Bname%5D=abc]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 20:14:43) [POST]
+Redirected to http://test.host/books
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/books/add]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 20:14:43) [GET]
+Rendering books/add
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 20:15:30) [GET]
+Rendering books/add
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/books/add]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 20:15:30) [POST]
+  Parameters: {"book"=>{"mrp"=>"23.45", "name"=>"abc"}}
+Redirected to http://test.host/books
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/books/add?book%5Bmrp%5D=23.45&book%5Bname%5D=abc]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 20:15:30) [POST]
+Redirected to http://test.host/books
+Completed in 0ms (DB: 1) | 302 Found [http://test.host/books/add]
+  [4;36;1mSQL (0.7ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing BooksController#add (for 0.0.0.0 at 2010-02-06 20:15:30) [GET]
+Rendering books/add
+Completed in 1ms (View: 0, DB: 1) | 200 OK [http://test.host/books/add]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
