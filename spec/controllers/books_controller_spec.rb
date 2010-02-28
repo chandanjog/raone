@@ -17,19 +17,31 @@ describe BooksController do
     Book.should_receive(:new).with(params[:book]).and_return(book)
     book.should_receive(:save!).and_return(book)
 
-    post :add , params
+    post :add, params
   end
 
   it "add should redirect to index on POST" do
     book=mock("book")
     Book.should_receive(:new).and_return(book)
     book.should_receive(:save!).and_return(book)
-    
+
     post :add
-    response.should redirect_to :controller =>'books',:action=>'index'
+    response.should redirect_to :controller =>'books', :action=>'index'
   end
 
-  it "should route to add action" do
-    get :add
-  end  
+  it "get index should list all the books " do
+    books = [Book.new , Book.new]
+    Book.should_receive(:find).with(:all).and_return(books)
+
+    get :index
+
+    controller.books.size.should == 2
+  end
+
+  describe "routes" do
+    it "should route to add action" do
+
+    end
+  end
+
 end

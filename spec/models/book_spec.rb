@@ -16,6 +16,15 @@ describe Book do
 
   it "should have a name" do
     @valid_attributes.delete :name
-    Book.new(@valid_attributes).should_not be_valid
+    book = Book.new(@valid_attributes)
+    book.should_not be_valid
+    book.errors[:name].should eql("required")
+  end
+
+  it "should have mrp in decimal with two places precision if mrp is provided" do
+    @valid_attributes[:mrp] = "mrp"
+    book = Book.new @valid_attributes
+    book.should_not be_valid
+    book.errors[:mrp].should eql('required a decimal value with 2 place precision')
   end
 end

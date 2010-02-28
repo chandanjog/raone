@@ -1,6 +1,8 @@
 class BooksController < ApplicationController
-
+  attr_reader :books
+  
   def index
+    @books = Book.find(:all)
   end
 
   def show

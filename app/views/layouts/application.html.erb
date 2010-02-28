@@ -8,24 +8,11 @@
 <body>
 <div id="container">
   <div id="header">
-    <div class="logo">&nbsp;</div>
-    <div class="action-bar">
-    </div>
-
-    <div id="navigation">
-      <img src="/images/navigation.jpg" class="default-padding"/>
-    </div>
-
+    <img class="logo" src="/images/logo.png"/>
   </div>
-
-  <%= yield %>
-
-  <div id="utility-bar">
-    <div class="utilities">
-      <img src="/images/utility_btn.png" class="default-padding"/>
-    </div>
+  <div id="content">
+    <%= yield %>
   </div>
-
   <div id="footer">
     <div class="legalese">
       Copyright &copy; 2010. All Rights Reserved. Book hunt.

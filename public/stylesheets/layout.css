@@ -1,5 +1,28 @@
 .logo {
-    background: url("/images/logo.png") no-repeat;
-    height: 90px;
+    height: 164px;
     width: 267px;
+    padding: 56px 85px;
+    float: right;
+    border: 1px solid grey;
+}
+
+#container{
+    padding: 0 200px;
+    border: 1px solid grey;
+    position: absolute;
+    background-color: white;
+    top: 0;
+    left: 200px;
+    right: 200px;
+    bottom:0;
+    z-index: 1;
+}
+
+#header{
+    padding: 1px 200px;
+    border: 1px solid grey;
+}
+
+body{
+    background-color: #5ae;
 }
