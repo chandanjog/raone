@@ -1,28 +1,52 @@
 .logo {
     height: 164px;
     width: 267px;
-    padding: 56px 85px;
     float: right;
     border: 1px solid grey;
 }
 
-#container{
-    padding: 0 200px;
+#container {
     border: 1px solid grey;
     position: absolute;
     background-color: white;
     top: 0;
-    left: 200px;
-    right: 200px;
-    bottom:0;
+    left: 15%;
+    right: 15%;
+    bottom: 0;
     z-index: 1;
 }
 
-#header{
-    padding: 1px 200px;
-    border: 1px solid grey;
+#header {
+   border: 1px solid grey;
 }
 
-body{
-    background-color: #5ae;
+#content {
+    padding: 0 39px;
+    position: relative;
+    top: 53%;
+}
+
+#footer {
+    position: relative;
+    top: 80%;
+}
+
+body {
+    background-color: #B8BFBF;
+}
+
+ul{
+    list-style:none outside none;
+    position:relative;
+    top:132px;
+}
+
+#footer ul{
+    top:-11px;    
+}
+
+li{
+    float: left;
+    padding: 0 5px 0 0;
+    color: green; 
 }

@@ -8,7 +8,15 @@
 <body>
 <div id="container">
   <div id="header">
-    <img class="logo" src="/images/logo.png"/>
+    <!--<img class="logo" src="/images/logo.png"/>-->
+    <div class="logo">
+       <img class="logo" src="/images/logo.png"/>
+    </div>
+    <ul>
+        <li><a href="">Sell a book</a></li>
+        <li><a href="">My Account</a></li>
+        <li><a href="">How it works</a></li>
+    </ul>
   </div>
   <div id="content">
     <%= yield %>
@@ -17,15 +25,13 @@
     <div class="legalese">
       Copyright &copy; 2010. All Rights Reserved. Book hunt.
     </div>
-    <div class="legalese-links">
-      <ul>
+    <ul>
         <li><a href="#">Privacy Policy</a></li>
         <li><a href="#">About Us</a></li>
         <li><a href="#">Contact Us</a></li>
         <li><a href="#">FAQ </a></li>
         <li><a href="#">Sitemap </a></li>
-      </ul>
-    </div>
+    </ul>
   </div>
 </div>
 </body>

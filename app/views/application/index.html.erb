@@ -1,0 +1,4 @@
+<% form_for :book, @person, :url => { :action => "create" } do |f| %>
+    <%= f.text_field :first_name %>
+    <%= submit_tag 'Search' %>
+<% end %>

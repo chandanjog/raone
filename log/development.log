@@ -1818,3 +1818,449 @@ Rendering template within layouts/application
 Rendering books/index
   [4;36;1mBook Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
 Completed in 64ms (View: 58, DB: 1) | 200 OK [http://localhost/books]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-02-28 19:41:42) [GET]
+  [4;35;1mBook Load (0.2ms)[0m   [0mSELECT * FROM `books` [0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;36;1mBook Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Completed in 32ms (View: 26, DB: 1) | 200 OK [http://localhost/books]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-02-28 19:42:45) [GET]
+  [4;36;1mBook Load (0.2ms)[0m   [0;1mSELECT * FROM `books` [0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;35;1mBook Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Completed in 10ms (View: 3, DB: 1) | 200 OK [http://localhost/books]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-02-28 19:43:47) [GET]
+  [4;35;1mBook Load (0.1ms)[0m   [0mSELECT * FROM `books` [0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;36;1mBook Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Completed in 10ms (View: 4, DB: 1) | 200 OK [http://localhost/books]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-02-28 19:44:24) [GET]
+  [4;36;1mBook Load (0.1ms)[0m   [0;1mSELECT * FROM `books` [0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;35;1mBook Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Completed in 12ms (View: 4, DB: 1) | 200 OK [http://localhost/books]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-02-28 19:48:21) [GET]
+  [4;35;1mBook Load (0.1ms)[0m   [0mSELECT * FROM `books` [0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;36;1mBook Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Completed in 21ms (View: 3, DB: 1) | 200 OK [http://localhost/books]
+  [4;35;1mSQL (2.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-02-28 19:48:30) [GET]
+  [4;36;1mBook Load (0.8ms)[0m   [0;1mSELECT * FROM `books` [0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;35;1mBook Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Completed in 10ms (View: 3, DB: 4) | 200 OK [http://localhost/books]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-02-28 19:55:19) [GET]
+  [4;35;1mBook Load (0.1ms)[0m   [0mSELECT * FROM `books` [0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;36;1mBook Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Completed in 9ms (View: 3, DB: 1) | 200 OK [http://localhost/books]
+  [4;35;1mSQL (8.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-02-28 19:56:53) [GET]
+  [4;36;1mBook Load (0.2ms)[0m   [0;1mSELECT * FROM `books` [0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;35;1mBook Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Completed in 11ms (View: 4, DB: 9) | 200 OK [http://localhost/books]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-02-28 20:09:54) [GET]
+  [4;35;1mBook Load (0.1ms)[0m   [0mSELECT * FROM `books` [0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;36;1mBook Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Completed in 10ms (View: 3, DB: 1) | 200 OK [http://localhost/books]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-02-28 20:10:57) [GET]
+  [4;36;1mBook Load (0.3ms)[0m   [0;1mSELECT * FROM `books` [0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;35;1mBook Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Completed in 14ms (View: 8, DB: 1) | 200 OK [http://localhost/books]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-02-28 20:12:22) [GET]
+  [4;35;1mBook Load (0.1ms)[0m   [0mSELECT * FROM `books` [0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;36;1mBook Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Completed in 11ms (View: 4, DB: 1) | 200 OK [http://localhost/books]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-02-28 20:20:55) [GET]
+  [4;36;1mBook Load (0.1ms)[0m   [0;1mSELECT * FROM `books` [0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;35;1mBook Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Completed in 19ms (View: 12, DB: 2) | 200 OK [http://localhost/books]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-02-28 20:22:42) [GET]
+  [4;35;1mBook Load (0.1ms)[0m   [0mSELECT * FROM `books` [0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;36;1mBook Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Completed in 15ms (View: 8, DB: 1) | 200 OK [http://localhost/books]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-02-28 20:25:00) [GET]
+  [4;36;1mBook Load (0.1ms)[0m   [0;1mSELECT * FROM `books` [0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;35;1mBook Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Completed in 16ms (View: 9, DB: 1) | 200 OK [http://localhost/books]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-02-28 21:16:24) [GET]
+  [4;35;1mBook Load (0.1ms)[0m   [0mSELECT * FROM `books` [0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;36;1mBook Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Completed in 14ms (View: 8, DB: 1) | 200 OK [http://localhost/books]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-02-28 21:20:51) [GET]
+  [4;36;1mBook Load (0.1ms)[0m   [0;1mSELECT * FROM `books` [0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;35;1mBook Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Completed in 14ms (View: 7, DB: 1) | 200 OK [http://localhost/books]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-02-28 21:22:16) [GET]
+  [4;35;1mBook Load (0.1ms)[0m   [0mSELECT * FROM `books` [0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;36;1mBook Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Completed in 10ms (View: 3, DB: 1) | 200 OK [http://localhost/books]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-02-28 21:24:00) [GET]
+  [4;36;1mBook Load (0.1ms)[0m   [0;1mSELECT * FROM `books` [0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;35;1mBook Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Completed in 10ms (View: 3, DB: 1) | 200 OK [http://localhost/books]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-02-28 21:24:51) [GET]
+  [4;35;1mBook Load (0.7ms)[0m   [0mSELECT * FROM `books` [0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;36;1mBook Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Completed in 69ms (View: 62, DB: 2) | 200 OK [http://localhost/books]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-02-28 21:24:54) [GET]
+  [4;36;1mBook Load (0.1ms)[0m   [0;1mSELECT * FROM `books` [0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;35;1mBook Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Completed in 10ms (View: 4, DB: 1) | 200 OK [http://localhost/books]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-02-28 21:26:13) [GET]
+  [4;35;1mBook Load (0.4ms)[0m   [0mSELECT * FROM `books` [0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;36;1mBook Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Completed in 11ms (View: 4, DB: 2) | 200 OK [http://localhost/books]
+  [4;35;1mSQL (9.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-02-28 21:30:41) [GET]
+  [4;36;1mBook Load (0.8ms)[0m   [0;1mSELECT * FROM `books` [0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;35;1mBook Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Completed in 10ms (View: 4, DB: 11) | 200 OK [http://localhost/books]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-02-28 21:33:00) [GET]
+  [4;35;1mBook Load (0.1ms)[0m   [0mSELECT * FROM `books` [0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;36;1mBook Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Completed in 11ms (View: 4, DB: 2) | 200 OK [http://localhost/books]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-02-28 21:34:18) [GET]
+  [4;36;1mBook Load (0.1ms)[0m   [0;1mSELECT * FROM `books` [0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;35;1mBook Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Completed in 9ms (View: 3, DB: 1) | 200 OK [http://localhost/books]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-02-28 21:34:26) [GET]
+  [4;35;1mBook Load (0.1ms)[0m   [0mSELECT * FROM `books` [0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;36;1mBook Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/books]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-28 21:35:50) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-28 21:36:12) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-28 21:36:20) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-28 21:36:21) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-28 21:36:21) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-28 21:39:06) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-28 21:39:08) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-28 21:39:11) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-28 21:41:14) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-28 21:42:17) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-28 21:43:31) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 8ms (View: 6, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-28 21:54:29) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 50ms (View: 48, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-28 21:58:48) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-28 21:59:35) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-28 22:00:18) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-28 22:01:18) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-28 22:01:23) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-28 22:02:20) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-28 22:03:12) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 78ms (View: 76, DB: 0) | 200 OK [http://localhost/]
