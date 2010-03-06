@@ -1,8 +1,5 @@
 .logo {
-    height: 164px;
-    width: 267px;
-    float: right;
-    border: 1px solid grey;
+   float: right;
 }
 
 #container {
@@ -17,7 +14,8 @@
 }
 
 #header {
-   border: 1px solid grey;
+   background:url("/images/header_cross_section.png") repeat-x scroll top left transparent;
+   height: 43%;
 }
 
 #content {
@@ -35,13 +33,16 @@ body {
     background-color: #B8BFBF;
 }
 
-ul{
+#header ul{
     list-style:none outside none;
     position:relative;
-    top:132px;
+    top: 40%;
+    color:red;
 }
 
 #footer ul{
+    list-style:none outside none;
+    position:relative;
     top:-11px;    
 }
 
