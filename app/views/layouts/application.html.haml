@@ -1,0 +1,47 @@
+%head
+  %meta{:http_equiv => "Content-Type", :content=>"text/html", :charset=> 'utf-8'}
+  %title
+    Book Hunt
+  %link{:href=>'/stylesheets/layout.css', :media=>'screen, projection' , :rel=>"stylesheet", :type=>"text/css"}  
+%body
+  .container
+    .header
+      .slide_show
+        slide show
+      %ul
+        %li
+          %a{:href=>"#"}
+            Sell a book
+        %li
+          %a{:href=>"#"}
+            Sell a book
+        %li
+          %a{:href=>"#"}
+            My Account
+        %li
+          %a{:href=>"#"}
+            How it Works
+      .logo
+        &nbsp;
+    .content
+      = yield
+    .footer
+      .legalese
+        Copyright &copy; 2010. All Rights Reserved. Book hunt.
+      %ul
+        %li
+          %a{:href=>"#"}
+            Privacy Policy
+        %li
+          %a{:href=>"#"}
+            About Us
+        %li
+          %a{:href=>"#"}
+            Contact Us
+        %li
+          %a{:href=>"#"}
+            FAQ
+        %li
+          %a{:href=>"#"}
+            Sitemap
+
