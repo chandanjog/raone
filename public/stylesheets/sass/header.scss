@@ -13,6 +13,7 @@
   overflow: auto;
 }
 
+
 .type_of_user_container{
   float:left;
   height:83px;
@@ -42,14 +43,14 @@
 a{
   .seller{
   background: url("/images/sell.png") no-repeat;
-  background-color: #FFC200;
+  background-color: $yellow-color;
   }
   .buyer{
   background: url("/images/buy.png") no-repeat;
-  background-color: #FF5B00;
+  background-color: $orange-color;
   }
   .exchange{
   background: url("/images/share.png") no-repeat;
-  background-color: #B80028;
+  background-color: $maroon-color;
   }
 }

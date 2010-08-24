@@ -1,1 +1,23 @@
-
+.compare_prices
+  Compare prices to find the cheapest textbooks!
+.save_money
+  Save upto 85%
+.search_container
+  - form_for :book, @book, :url=> {:action=> 'search'} do |f|
+    = f.text_field :first_name
+    = submit_tag 'search'
+.advanced_search{:style=>'display:none;'}
+  advanced search options/tagging
+.bottom_bar
+  %span.cash_for_books
+    .header
+      Cash for books
+    .content  
+  %span.donate_books
+    .header
+      Donate books
+    .content
+  %span.latest_uploads
+    .header
+      Latest updates
+    .content  

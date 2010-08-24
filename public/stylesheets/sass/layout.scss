@@ -3,12 +3,60 @@
 @import "config.scss";
 
 
-
 #container {
   background-color: white;
   width: 80%;
   margin: auto;
   z-index: 1;
+  .compare_prices{
+    @include Reenie_Beanie_font;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+  .save_money{
+    @include Reenie_Beanie_font;
+    color: $orange-color;
+    margin-bottom: 10px;
+  }
+  .search_container{
+    margin: auto;
+    form{
+      margin: auto;
+      #book_first_name{
+        display: block;
+        width: 50%;
+        float: left;
+        margin-left: 20%;
+      }
+    }
+  }
+  .bottom_bar{
+    margin-top: 50px;
+    @include Reenie_Beanie_font;
+    .cash_for_books{
+      .header{
+        background-color: $yellow-color;
+      }
+      float: left;
+      width: 33%;
+      margin-right: 5px;
+    }
+    .donate_books{
+      .header{
+        background-color: $orange-color;
+      }
+      float: left;
+      width: 33%;
+      margin-right: 5px;
+    }
+    .latest_uploads{
+      .header{
+        background-color: $maroon-color;
+      }
+      float: left;
+      width: 33%;
+    }
+  }
 }
 
 
@@ -17,20 +65,17 @@
   height: 20em;
   margin: auto;
   overflow: auto;
+  .seach_container{
+    
+  }
 }
 
 
 body {
   background-color: $background-color;
+
 }
 
-#header ul {
-  float: left;
-  list-style: none outside none;
-  position: relative;
-  padding: 10% 0 0 3%;
-  color: red;
-}
 
 
 li {

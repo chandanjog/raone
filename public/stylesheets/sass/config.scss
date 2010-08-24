@@ -1,3 +1,25 @@
 $header-footer-color: #343434;
 $background-color: #343434;
+$yellow-color: #FFC200;
+$orange-color: #FF5B00;
+$maroon-color: #B80028;
+//$header-footer-color: #6b6464;
+//$background-color: #6b6464;
+//$header-footer-color: #7e7a7a;
+//$background-color: #7e7a7a;
+
 //$header-color: black
+
+@mixin Reenie_Beanie_font{
+  font-family: 'Reenie Beanie', serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  text-shadow: none;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: 0em;
+  word-spacing: 0em;
+  line-height: 1em;
+  text-align: center;
+}
