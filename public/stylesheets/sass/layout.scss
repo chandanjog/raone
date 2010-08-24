@@ -1,9 +1,8 @@
-.logo {
-  float : right ;
-  background : url("/images/shelfLogoLight.png");
-  height : 154px;
-  width : 339px;
-}
+@import "header.scss";
+@import "footer.scss";
+@import "config.scss";
+
+
 
 #container {
   background-color: white;
@@ -12,16 +11,7 @@
   z-index: 1;
 }
 
-#header {
-  background: url("/images/header_cross_section.png") repeat-x scroll top left transparent;
-  height: 43%;
-  overflow: auto;
-}
 
-#header #slide_show {
-  color: red;
-  padding: 5px 0 0 30px;
-}
 
 #content {
   height: 20em;
@@ -29,22 +19,9 @@
   overflow: auto;
 }
 
-#footer {
-/*position: relative;*/
-/*top: 80%;*/
-  overflow: auto;
-  background-color: black;
-  color: white;
-}
-
-#footer div {
-  font-size: 14px;
-  padding: 1em 0 0;
-  text-align: center;
-}
 
 body {
-  background-color: #B8BFBF;
+  background-color: $background-color;
 }
 
 #header ul {
@@ -55,11 +32,6 @@ body {
   color: red;
 }
 
-#footer ul {
-  list-style: none outside none;
-  padding: 0 2em 17px 31em;
-  font-size: 13px;
-}
 
 li {
   float: left;

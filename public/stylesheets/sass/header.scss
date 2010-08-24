@@ -1,0 +1,55 @@
+@import "config.scss";
+
+.logo {
+  float: right ;
+  background: url("/images/bookHuntLogo.png") no-repeat;
+  height: 200px;
+  width: 400px;
+}
+
+#header {
+  background-color: $header-footer-color;
+  height: 43%;
+  overflow: auto;
+}
+
+.type_of_user_container{
+  float:left;
+  height:83px;
+  margin-bottom:3px;
+  width: 63%;
+  margin-top: 10%;
+  margin-left: 10px;
+  .description{
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+  }
+}
+
+.user{
+  float: left;
+  width: 30%;
+  height: 76%;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  margin: 5px;
+  a{
+    font-color: green;
+  }
+}
+
+a{
+  .seller{
+  background: url("/images/sell.png") no-repeat;
+  background-color: #FFC200;
+  }
+  .buyer{
+  background: url("/images/buy.png") no-repeat;
+  background-color: #FF5B00;
+  }
+  .exchange{
+  background: url("/images/share.png") no-repeat;
+  background-color: #B80028;
+  }
+}

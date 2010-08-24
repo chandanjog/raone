@@ -1,0 +1,17 @@
+@import "config.scss";
+
+#footer {
+  overflow: auto;
+  background-color: $header-footer-color;
+  color: white;
+  div{
+    font-size: 14px;
+    padding: 1em 0 0;
+    text-align: center;
+  }
+  ul{
+    list-style: none outside none;
+    padding: 0 2em 17px 31em;
+    font-size: 13px;
+  }
+}

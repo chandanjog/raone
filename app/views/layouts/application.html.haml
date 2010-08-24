@@ -5,26 +5,21 @@
   %title
     Book Hunt
   %link{:href=>'/stylesheets/layout.css', :media=>'screen, projection' , :rel=>"stylesheet", :type=>"text/css"}  
+  %link{:href=>'http://fonts.googleapis.com/css?family=Font+Name', :media=>'screen, projection' , :rel=>"stylesheet", :type=>"text/css"}  
 %body
   #container
     #header
-      #slide_show
-        slide show
-      %ul
-        %li
-          %a{:href=>"#"}
-            Sell a book
-        %li
-          %a{:href=>"#"}
-            Sell a book
-        %li
-          %a{:href=>"#"}
-            My Account
-        %li
-          %a{:href=>"#"}
-            How it Works
+      .type_of_user_container
+        %a{:href=>'books/add'}
+          .seller.user
+        %a{:href=>'books/search'}
+          .buyer.user
+        %a{:href=>'books/exchange'}
+          .exchange.user
+
       .logo
         &nbsp;
+
     #content
       = yield
     #footer

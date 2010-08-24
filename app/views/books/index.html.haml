@@ -4,8 +4,9 @@
   = label_tag "No books to list down"
 - else
   - @books.each do |book|
-    = label_tag "Name"
-    = label_tag book.name
-    = link_to :action => :edit
-    |
-    = link_to :action => :delete
+    .book
+      = label_tag "Name"
+      = label_tag book.name
+      = link_to :action => :edit
+      |
+      = link_to :action => :delete
