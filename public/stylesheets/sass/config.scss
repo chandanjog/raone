@@ -23,3 +23,9 @@ $maroon-color: #B80028;
   line-height: 1em;
   text-align: center;
 }
+
+@mixin site_wide_font{
+  font-family: 'Soho', serif;
+  font-size: 14px;
+  color: $header-footer-color
+}

@@ -12,6 +12,9 @@ require File.join(File.dirname(__FILE__), 'boot')
 
 Rails::Initializer.run do |config|
   config.gem "haml" , :version=>'3.1.0'
+#  config.gem "rspec" , :version=>'1.3.0'
+#  config.gem "rspec-rails" , :version=>'1.3.2'
+#  config.gem "acts-as-taggable-on", :source => "http://gemcutter.org", :version => '2.0.0.rc1'
   # Settings in config/environments/* take precedence over those specified here.
   # Application configuration should go into files in config/initializers
   # -- all .rb files in that directory are automatically loaded.

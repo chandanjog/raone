@@ -1,0 +1,17 @@
+%tr{:id=>"#{book.id}"}
+  %td
+    = book.name
+  %td
+    = book.author
+  %td
+    = book.mrp
+  %td
+    = book.sale_price
+  %td
+    = book.tag_list
+  %td
+    %a{:href=>"#{book_update_url(book.id)}"}
+      edit
+  %td
+    %a{:href=>"#{book_delete_url(book.id)}"}
+      delete
