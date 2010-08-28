@@ -6,26 +6,25 @@ class BooksController < ApplicationController
   end
 
   def add
-    render if request.get?
-    if request.xhr?
+    if request.post?
       @book = Book.new(params[:book])
       @book.save!
-      render :partial=> 'posted_book', :locals => {:book => @book}
+      redirect_to :action => 'index'
     end
   end
 
-#  def update
-#    if request.get?
-#      book = Book.update(params[:id],params[:book])
-#      render :partial=> "posted_book", :locals => {:book => book}
-#    end
-#  end
-#
-#  def delete
-#    if request.get?
-#      Book.delete(params[:id])
-#      render :json=>{},:status=>200
-#    end
-#  end
+  def update
+    if request.post?
+      Book.update(params[:id],params[:book])
+      redirect_to :action => 'index'
+    end
+  end
+
+  def delete
+    if request.get?
+      Book.delete(params[:id])
+      redirect_to :action => 'index'
+    end
+  end
   
 end

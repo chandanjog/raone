@@ -17,24 +17,24 @@ describe BooksController do
     book.should_receive(:save!).and_return(book)
     book.stub(:id).and_return(1)
 
-    xhr :post , :add
+    post :add
     
-    response.should render_template "books/_posted_book"
+    response.should redirect_to :action => :index
   end
 
-#  it "update should save the updated book fields on AJAX POST" do
-#    book = mock(Book)
-#    Book.should_receive(:update).and_return(book)
-#
-#    xhr :post, :update
-#    response.should render_template "books/update"
-#  end
-#
-#  it "update should delete the book on AJAX POST" do
-#    Book.should_receive(:delete)
-#
-#    xhr :post, :delete
-#  end
+  it "should save the updated book fields on POST" do
+    Book.should_receive(:update)
+
+    post :update
+    response.should redirect_to :action => :index
+  end
+
+  it "should delete the book on AJAX POST" do
+    Book.should_receive(:delete)
+
+    get :delete
+    response.should redirect_to :action => :index
+  end
 
   it "get index should list all the books " do
     books = [Book.new, Book.new]

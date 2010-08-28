@@ -41,7 +41,8 @@ ActionController::Routing::Routes.draw do |map|
   map.home '/' ,:controller =>:application 
   map.connect ':controller/:action/:id'
   map.connect ':controller/:action/:id.:format'
-  map.book_add 'books/add', :controller => 'books', :action => 'add'
+  map.book_index 'books/index', :controller => 'books', :action => 'index'
+  map.book_search 'books/search', :controller => 'books', :action => 'search'
   map.book_update 'books/update/:id', :controller => 'books', :action => 'update' , :conditions => {:method => :post}
   map.book_delete 'books/delete/:id', :controller => 'books', :action => 'delete' , :conditions => {:method => :post}
 end
