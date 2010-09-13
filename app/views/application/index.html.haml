@@ -1,13 +1,4 @@
-.compare_prices
-  Compare prices to find the cheapest textbooks!
-.save_money
-  Save upto 85%
-.search_container
-  - form_for :book, @book, :url=> {:action=> 'search'} do |f|
-    = f.text_field :first_name
-    = submit_tag 'search'
-.advanced_search{:style=>'display:none;'}
-  advanced search options/tagging
+= render :partial => 'common/book_search_form'
 .bottom_bar
   .cash_for_books
     .header

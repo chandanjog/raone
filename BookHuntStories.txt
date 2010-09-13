@@ -1,0 +1,72 @@
+- save book details with all the relevant fields.
+	-title
+	-author
+	-mrp
+	-tag list(max 5 tags)(stream{engineering/law etc}, branch{IT,computer science}, university, year: te,be etc)
+	
+	-category
+	-for sale/share/exchange/donate
+
+- book detail validations(client and server side)
+- styling
+- ability to tag the book with multiple tags ########done
+- the added books view shown down as you add the books ########done
+- ability to edit and delete posted book details. ########done
+--------------------------------------------
+
+- search the books based on the tags and book details
+
+---------------------------------------------
+
+- user Login using gmail. 
+- capture required user info.(address, phone number)
+
+---------------------------------------------
+- ability to edit the personal details
+--------------------------------------------
+- pagination and sorting of the book listings.
+------------------------------------------------
+
+- ability to choose the books from the list to buy and show interest to the owner
+--------------------------------------------
+- ability to search a book based on isbn(web service)
+- ability to add the details and store it in db
+
+--------------------------------------------
+Overall site wide styling:
+-Ability to show banner and google ads.
+-Use stack overflow for tagging screenshorts
+--------------------------------------------
+- Google Analytics
+
+Marketing strategy:
+
+-Save money
+-schools
+-colleges
+-contact vendors for ads. Some kind of point system and prize.
+-enviornment friendliness aspect.
+
+----------------------------------------------
+Facebook/orkut app to publicise
+----------------------------------------------
+Google maps:
+- to locate the owner etc
+----------------------------------------------\
+
+
+
+
+
+
+Next Release: EXPANSION / EXTENSIION
+-----------------------------------------------------
+- search the books based on the user details
+-----------------------------------------------------
+- Show msg board for a book, to show interest.
+---------------------------------------------
+- Share / exchange /donate a book
+
+Hook up with a bookseller if possible
+- and a courier service
+- try to implement the delivery to home service for those who are interested.

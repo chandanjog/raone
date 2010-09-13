@@ -26,5 +26,10 @@ class BooksController < ApplicationController
       redirect_to :action => 'index'
     end
   end
-  
+
+  def search
+    @books = []
+    render if request.get?
+  end
+
 end

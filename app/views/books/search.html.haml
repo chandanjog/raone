@@ -1,0 +1,25 @@
+= render :partial => 'common/book_search_form'
+.search_results
+  Search Results
+  %table
+    %thead
+      %tr
+        %th Title
+        %th Author
+        %th Mrp
+        %th Sale Price
+        %th Contact Owner
+    %tbody
+    - @books.each do |book|
+      %tr{:id=>"#{book.id}"}
+        %td
+          = book.name
+        %td
+          = book.author
+        %td
+          = book.mrp
+        %td
+          = book.sale_price
+        %td
+          %a{:href=>"#"}
+            contact
