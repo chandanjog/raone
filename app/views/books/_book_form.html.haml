@@ -1,13 +1,29 @@
 - form_for :book, :url => url do |f|
-  = f.label :name, 'Title'
-  = f.text_field 'name', :maxlength => 40 , :size=> 20
-  = f.label :author,"Author"
-  = f.text_field 'author', :maxlength => 40, :size => 20
-  = f.label :mrp
-  = f.text_field :mrp, :maxlength => 5, :size => 10
-  = f.label :sale_price
-  = f.text_field :sale_price, :maxlength => 5, :size => 10
-  = f.label :tag_list
-  = f.text_field :tag_list, :maxlength => 100, :size => 30   
-  = submit_tag 'add'
+  .form_row
+    .form_label
+      = f.label :name, 'Title'
+    .form_field
+      = f.text_field 'name', :maxlength => 40 , :size=> 20
+  .form_row
+    .form_label
+      = f.label :author,"Author"
+    .form_field
+      = f.text_field 'author', :maxlength => 40, :size => 20
+  .form_row
+    .form_label
+      = f.label :mrp
+    .form_field
+      = f.text_field :mrp, :maxlength => 5, :size => 10
+  .form_row
+    .form_label
+      = f.label :sale_price
+    .form_field
+      = f.text_field :sale_price, :maxlength => 5, :size => 10
+  .form_row
+    .form_label
+      = f.label :tag_list
+    .form_field
+      = f.text_field :tag_list, :maxlength => 100, :size => 30
+  .form_row
+    = submit_tag 'Add Book', :class => 'submit'
 

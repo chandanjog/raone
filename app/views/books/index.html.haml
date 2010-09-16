@@ -3,19 +3,13 @@
 %link{:href=>'/stylesheets/post_a_book.css', :media=>'screen, projection' , :rel=>"stylesheet", :type=>"text/css"}
 
 .post_a_book
-  %h1
-    Post a Book
-  .search_on_isbn{:style=>'display:none;'}
-    .description
-      Search books on isbn number
-    %input{:type=>"text"}
-  .manual
-    .description
-      Enter book details manually
-    = render :partial => 'book_form', :locals =>{ :for_action => :add, :url => {:action => 'add'}}
+  .header
+    Enter book details 
+  = render :partial => 'book_form', :locals =>{ :for_action => :add, :url => {:action => 'add'}}
 
 .posted_books
-  Posted books
+  .header
+    Posted books
   %table
     %thead
       %tr

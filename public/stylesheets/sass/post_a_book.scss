@@ -1,9 +1,35 @@
 @import "config.scss";
 
+
+.header{
+  background-color: $yellow-color;
+  @include Reenie_Beanie_font;
+  padding: 5px;
+}
+
 #container{
   .post_a_book{
-    .manual{
-      
+    form{
+      padding: 20px;
+      .form_row{
+        clear: both;
+        overflow: auto;
+        padding: 5px;
+        input[type="submit"]{
+          width: 12%;
+          float: left;
+          margin-left: 41%;
+        }
+        .form_label{
+          width: 40%;
+          float: left;
+          text-align: right;
+          padding:5px 10px 0 0;
+        }
+        .form_field{
+          float: left;
+        }
+      }
     }
 
   }
