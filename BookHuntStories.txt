@@ -10,7 +10,7 @@
 	-sale price
 	
 	-category
-	
+	-publisher
 	-tag list(max 5 tags)(stream{engineering/law etc}, branch{IT,computer science}, university, year: te,be etc)
 		
 	-for sale/share/exchange/donate

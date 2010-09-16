@@ -13,5 +13,10 @@
     list-style: none outside none;
     padding: 0 2em 17px 31em;
     font-size: 13px;
+    li{
+      float: left;
+      padding: 0 5px 0 0;
+      color: green;
+    }
   }
 }
