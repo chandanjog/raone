@@ -3,7 +3,9 @@ $background-color: #343434;
 $yellow-color: #FFC200;
 $orange-color: #FF5B00;
 $maroon-color: #B80028;
-$light-gray-color: #e4e4e4;
+$light-gray-color: #e2e2e2;
+//$light-gray-color: #e4e4e4;
+$lighter-gray-color: #f1eeee;
 //$header-footer-color: #6b6464;
 //$background-color: #6b6464;
 //$header-footer-color: #7e7a7a;
@@ -27,6 +29,6 @@ $light-gray-color: #e4e4e4;
 
 @mixin site_wide_font{
   font-family: 'Soho', serif;
-  font-size: 14px;
+  font-size: 13px;
   color: $header-footer-color
 }

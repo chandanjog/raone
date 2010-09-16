@@ -10,32 +10,44 @@
 .posted_books
   .header
     Posted books
-  %table
-    %thead
-      %tr
-        %th Title
-        %th Author
-        %th Mrp
-        %th Sale Price
-        %th Tags
-        %th Edit
-        %th Delete
-    %tbody
-    - @books.each do |book|
-      %tr{:id=>"#{book.id}"}
-        %td
-          = book.name
-        %td
-          = book.author
-        %td
-          = book.mrp
-        %td
-          = book.sale_price
-        %td
-          = book.tag_list
-        %td.edit_link
-          %a{:href=>"#",:url_to_post => "#{book_update_url(book.id)}"}
-            edit
-        %td
-          %a{:href=>"#{book_delete_url(book.id)}"}
-            delete
+  - @books.each do |book|
+    .book
+      .thumbnail
+      .content-middle
+        .row.title
+          .label
+          .value
+            = book.name
+        .row.isbn
+          .label
+            Isbn :
+        .row.author
+          .label
+            Author(s) :
+          .value
+            = book.author
+        .row.tags
+          .label
+            Tags :
+          .value
+            = book.tag_list
+      .content-right
+        .row.mrp
+          .label
+            Mrp : Rs
+          .value
+            = book.mrp
+        .row.sale_price
+          .label
+            Sale Price : Rs
+          .value
+            = book.sale_price
+        .row
+          .edit_link.label
+            %a{:href=>"#",:url_to_post => "#{book_update_url(book.id)}"}
+              edit
+            |
+          .delete_link.label
+            %a{:href=>"#{book_delete_url(book.id)}"}
+              delete
+

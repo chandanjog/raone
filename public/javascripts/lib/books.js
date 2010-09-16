@@ -3,7 +3,7 @@ function Book() {
     var post_a_book = $('.post_a_book');
     var tag_list = post_a_book.find('#book_tag_list');
 
-    var posted_books = $('.posted_books tbody tr');
+    var posted_books = $('.posted_books');
     var edit_link_selector = '.edit_link a';
 
     //    var add_button = $('#post_book');
