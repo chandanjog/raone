@@ -64,11 +64,18 @@
 
 #content {
   height: 20em;
-  margin: auto;
   overflow: auto;
+  background-color: $light-gray-color;
+  width: 80%;
   .seach_container{
     
   }
+}
+
+#right-side-bar {
+  height: 20em;
+  display: inline;
+  width: 20%;
 }
 
 
