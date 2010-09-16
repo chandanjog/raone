@@ -1,23 +1,36 @@
+
+
 - save book details with all the relevant fields.
-	-title
-	-author
+	-field for isbn
+	-title(provide autocomplete on title)
+	-author(provide autocomplete on author and multiple authors)
+	
+	-currency
 	-mrp
-	-tag list(max 5 tags)(stream{engineering/law etc}, branch{IT,computer science}, university, year: te,be etc)
+	-sale price
 	
 	-category
+	
+	-tag list(max 5 tags)(stream{engineering/law etc}, branch{IT,computer science}, university, year: te,be etc)
+		
 	-for sale/share/exchange/donate
 
 - book detail validations(client and server side)
+- ability to edit book details.
 - styling. two col layout.
-- ability to tag the book with multiple tags ########done
+- isbn option	
+- ability to tag the book with multiple tags ########done with single tag
+
 - the added books view shown down as you add the books ########done
-- ability to edit and delete posted book details. ########done
+- ability to delete posted book details. ########done
 
 --------------------------------------------
 - search the books based on the tags and book details
 --------------------------------------------
 - pagination and sorting of the book listings.
 - Filtering the books view
+
+
 
 
 ---------------------------------------------
@@ -29,25 +42,28 @@
 - ability to choose the books from the list to buy and show interest to the owner
 
 
+
+
 --------------------------------------------
 - ability to search a book based on isbn(web service)
 - ability to add the details and store it in db
 
 
 
+
 --------------------------------------------
 Overall site wide styling:
+
 -Ability to show banner and google ads.
 -Use stack overflow for tagging screenshorts
 
-
 --------------------------------------------
 - Google Analytics
-
 --------------------------------------------
 
 
-
+--------------------------------------------
+All the remaining pages on the site like about us, contact us etc
 
 
 Marketing strategy:
