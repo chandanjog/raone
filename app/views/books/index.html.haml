@@ -6,10 +6,12 @@
   %h1
     Post a Book
   .search_on_isbn{:style=>'display:none;'}
-    Search books on isbn number
+    .description
+      Search books on isbn number
     %input{:type=>"text"}
   .manual
-    Enter book details manually
+    .description
+      Enter book details manually
     = render :partial => 'book_form', :locals =>{ :for_action => :add, :url => {:action => 'add'}}
 
 .posted_books

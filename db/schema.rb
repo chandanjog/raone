@@ -14,8 +14,8 @@ ActiveRecord::Schema.define(:version => 20100825171346) do
   create_table "books", :force => true do |t|
     t.string   "name"
     t.string   "author"
-    t.integer  "mrp"
-    t.integer  "sale_price"
+    t.integer  "mrp",        :limit => 10, :precision => 10, :scale => 0
+    t.integer  "sale_price", :limit => 10, :precision => 10, :scale => 0
     t.datetime "created_at"
     t.datetime "updated_at"
   end

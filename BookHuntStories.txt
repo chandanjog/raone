@@ -8,36 +8,47 @@
 	-for sale/share/exchange/donate
 
 - book detail validations(client and server side)
-- styling
+- styling. two col layout.
 - ability to tag the book with multiple tags ########done
 - the added books view shown down as you add the books ########done
 - ability to edit and delete posted book details. ########done
+
 --------------------------------------------
-
 - search the books based on the tags and book details
-
----------------------------------------------
-
-- user Login using gmail. 
-- capture required user info.(address, phone number)
-
----------------------------------------------
-- ability to edit the personal details
 --------------------------------------------
 - pagination and sorting of the book listings.
-------------------------------------------------
+- Filtering the books view
 
+
+---------------------------------------------
+- user Login using gmail. 
+- capture required user info.(address, phone number)
+---------------------------------------------
+- ability to edit the personal details
+------------------------------------------------	
 - ability to choose the books from the list to buy and show interest to the owner
+
+
 --------------------------------------------
 - ability to search a book based on isbn(web service)
 - ability to add the details and store it in db
+
+
 
 --------------------------------------------
 Overall site wide styling:
 -Ability to show banner and google ads.
 -Use stack overflow for tagging screenshorts
+
+
 --------------------------------------------
 - Google Analytics
+
+--------------------------------------------
+
+
+
+
 
 Marketing strategy:
 
