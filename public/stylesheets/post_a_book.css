@@ -1,0 +1,66 @@
+.header {
+  background-color: #ffc200;
+  font-family: 'Reenie Beanie', serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  text-shadow: none;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: 0em;
+  word-spacing: 0em;
+  line-height: 1em;
+  text-align: center;
+  padding: 1px; }
+
+#container .post_a_book form {
+  padding: 20px; }
+  #container .post_a_book form .form_row {
+    clear: both;
+    overflow: auto;
+    padding: 5px; }
+    #container .post_a_book form .form_row input[type="submit"] {
+      width: 12%;
+      float: left;
+      margin-left: 41%; }
+    #container .post_a_book form .form_row .form_label {
+      width: 40%;
+      float: left;
+      text-align: right;
+      padding: 5px 10px 0 0; }
+    #container .post_a_book form .form_row .form_field {
+      float: left; }
+#container .posted_books {
+  margin: 20px 0 0 0; }
+  #container .posted_books .book {
+    clear: both;
+    margin: 10px;
+    height: 90px;
+    background-color: #f1eeee; }
+    #container .posted_books .book .row {
+      clear: both; }
+      #container .posted_books .book .row .label {
+        font-weight: bold;
+        float: left; }
+      #container .posted_books .book .row .value {
+        float: left; }
+    #container .posted_books .book .thumbnail {
+      background: url("/images/book_thumbnail_80_by_80.png") no-repeat;
+      float: left;
+      width: 80px;
+      height: 80px;
+      margin: 5px 40px 5px 20px; }
+    #container .posted_books .book .content-middle {
+      float: left;
+      width: 50%;
+      margin-top: 5px; }
+      #container .posted_books .book .content-middle .title {
+        font-size: 1.2em;
+        font-weight: bold; }
+        #container .posted_books .book .content-middle .title .label {
+          margin-bottom: 10px; }
+        #container .posted_books .book .content-middle .title .value {
+          margin-bottom: 10px; }
+    #container .posted_books .book .content-right {
+      margin: 5px 20px 0 0;
+      float: right; }

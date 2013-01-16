@@ -1,0 +1,16 @@
+#footer {
+  clear: both;
+  background-color: #343434;
+  color: white; }
+  #footer div {
+    font-size: 14px;
+    padding: 1em 0 0;
+    text-align: center; }
+  #footer ul {
+    list-style: none outside none;
+    padding: 0 2em 17px 31em;
+    font-size: 13px; }
+    #footer ul li {
+      float: left;
+      padding: 0 5px 0 0;
+      color: green; }

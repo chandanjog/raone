@@ -1,0 +1,155 @@
+.logo {
+  float: right;
+  background: url("/images/bookHuntLogo.png") no-repeat;
+  height: 158px;
+  width: 350px; }
+
+#header {
+  background-color: #343434;
+  height: 43%;
+  overflow: auto; }
+
+.type_of_user_container {
+  float: left;
+  height: 83px;
+  margin-bottom: 3px;
+  width: 63%;
+  margin-top: 6%;
+  margin-left: -3px; }
+  .type_of_user_container .description {
+    margin: auto;
+    text-align: center;
+    font-weight: bold; }
+
+.user {
+  float: left;
+  width: 30%;
+  height: 76%;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  margin: 5px; }
+  .user a {
+    font-color: green; }
+
+a .seller {
+  background: url("/images/sell.png") no-repeat;
+  background-color: #ffc200; }
+a .buyer {
+  background: url("/images/buy.png") no-repeat;
+  background-color: #ff5b00; }
+a .exchange {
+  background: url("/images/share.png") no-repeat;
+  background-color: #b80028; }
+
+#footer {
+  clear: both;
+  background-color: #343434;
+  color: white; }
+  #footer div {
+    font-size: 14px;
+    padding: 1em 0 0;
+    text-align: center; }
+  #footer ul {
+    list-style: none outside none;
+    padding: 0 2em 17px 31em;
+    font-size: 13px; }
+    #footer ul li {
+      float: left;
+      padding: 0 5px 0 0;
+      color: green; }
+
+.ui-dialog {
+  background-color: orange; }
+
+#container {
+  background-color: #343434;
+  width: 85%;
+  margin: auto;
+  z-index: 1; }
+  #container .compare_prices {
+    font-family: 'Reenie Beanie', serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    text-shadow: none;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 0em;
+    word-spacing: 0em;
+    line-height: 1em;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px; }
+  #container .save_money {
+    font-family: 'Reenie Beanie', serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    text-shadow: none;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 0em;
+    word-spacing: 0em;
+    line-height: 1em;
+    text-align: center;
+    color: #ff5b00;
+    margin-bottom: 10px; }
+  #container .search_container {
+    margin: auto; }
+    #container .search_container form {
+      margin: auto; }
+      #container .search_container form #book_first_name {
+        display: block;
+        width: 50%;
+        float: left;
+        margin-left: 20%; }
+  #container .bottom_bar {
+    margin-top: 50px;
+    font-family: 'Reenie Beanie', serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    text-shadow: none;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 0em;
+    word-spacing: 0em;
+    line-height: 1em;
+    text-align: center; }
+    #container .bottom_bar .cash_for_books {
+      float: left;
+      width: 33%;
+      margin-right: 5px; }
+      #container .bottom_bar .cash_for_books .header {
+        background-color: #ffc200; }
+    #container .bottom_bar .donate_books {
+      float: left;
+      width: 33%;
+      margin-right: 5px; }
+      #container .bottom_bar .donate_books .header {
+        background-color: #ff5b00; }
+    #container .bottom_bar .latest_uploads {
+      float: left;
+      width: 33%; }
+      #container .bottom_bar .latest_uploads .header {
+        background-color: #b80028; }
+
+#content {
+  float: left;
+  height: 60em;
+  overflow: auto;
+  background-color: white;
+  width: 80%; }
+
+#right-side-bar {
+  float: right;
+  background-color: white;
+  height: 60em;
+  display: inline;
+  width: 19%; }
+
+body {
+  background-color: #343434;
+  font-family: 'Soho', serif;
+  font-size: 13px;
+  color: #343434; }
