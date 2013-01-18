@@ -107,8 +107,14 @@ define(function (require) {
     };
 });
 
-
+//antipattern
 return
 {
     status: true
 };
+
+//preferred
+return{
+    status: true
+};
+
