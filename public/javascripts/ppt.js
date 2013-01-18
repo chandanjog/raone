@@ -106,3 +106,9 @@ define(function (require) {
         foobar:foobar
     };
 });
+
+
+return
+{
+    status: true
+};
